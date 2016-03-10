@@ -1,0 +1,21 @@
+//
+//  TIOADExample-Prefix.pch
+//  CHB-BLE
+//
+//  Created by baoshengfeng on 15/12/7.
+//  Copyright (c) 2015年 baoshengfeng. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#define PURIFY_OTA_MODEL_CODE   (1)
+
+#endif
